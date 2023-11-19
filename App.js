@@ -22,7 +22,7 @@ export default function App() {
             </View>
             <View style = {styles.buttonCont}>
               <Button title = "View"
-              onPress = {()=>showFullname(`${'Name: '}${item.name.firstname}${' '}${item.name.lastname}${'\n'}${'Course: '}${item.course}${'\n'}${'Year: '}${item.year}`)}
+              onPress = {()=>showFullname(`${'Name: '}${item.name.firstname}${'  '}${item.name.lastname}${'\n'}${'Course: '}${item.course}${'\n'}${'Year: '}${item.year}`)}
               buttonStylestyle = {styles.buttonVw}/>
             </View>
         </View>     
